@@ -14,18 +14,15 @@ are from public sources, or track them with [git-lfs](https://git-lfs.github.com
 
 ## Introduction
 
-This is a final project for the [Comparative Genomics](https://github.com/Yale-EEB723/syllabus) seminar in the spring of 2019. This project (a very brief, ie 1-2 sentence, overview of the project)...
+The Cnidarians are a group who have benefited from developments in sequencing technologies and new species genomes are being published with increasing frequency.  To better understand both the unique features and the relationships within this group it will be beneficial to understand the quality of these various genomes.
 
 ## The goal
 
-The specific problem I/we sought to explore was ... Our goal was...
+The goal of this project is to survey the quality of Cnidarian genomes and then compare size, heterozygosity, and frequency of repeats.
 
 ## The data
 
-Description of data...
-
-- Data source (simulated/ published/ unpublished?)
-- Data structure
+Data used in the project will be from published genomes available online. If required, any extra data will be requested from the original authors.
 
 ## Background
 
@@ -37,6 +34,10 @@ What the reader needs to know to understand the project
 
 
 ## Methods
+Read papers and find information to determine their, methodology, size, repeat content, Contigs, Scaffold N50, NG50.
+Rerun BUSCO on each of the genomes.  
+Analyze and compare data. 
+
 
 ## Results
 
