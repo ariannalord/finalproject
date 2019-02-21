@@ -1,7 +1,6 @@
 # Final Project
 
 ## Instructions
-:)
 
 This repository is a stub for your final project. Fork it as a template for your project, and develop your code in the forked repository. After you fork the repository, please enable the issue tracker in the repository settings so that others in the class (including the professor) can provide feedback. To submit the project, send a pull request to the original repository.
 
@@ -36,7 +35,7 @@ What the reader needs to know to understand the project
 ## Methods
 Read papers and find information to determine their, methodology, size, repeat content, Contigs, Scaffold N50, NG50.
 Rerun BUSCO on each of the genomes.  
-Analyze and compare data. 
+Analyze and compare data.
 
 
 ## Results
