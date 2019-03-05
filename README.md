@@ -33,9 +33,24 @@ What the reader needs to know to understand the project
 
 
 ## Methods
-Read papers and find information to determine their, methodology, size, repeat content, Contigs, Scaffold N50, NG50.
-Rerun BUSCO on each of the genomes.  
+Read papers and find information to determine: methodology, size, repeat content, Contigs, Scaffold N50, NG50, BUSCO, AED.
+
+Repeats in a genome can create ambiguity in alignment and assembly which can produce biases and errors when interpreting results.  
+
+Scaffolds are created by chaining contigs together. Contigs in a scaffold are separated by gaps designated by variable number of “N” letters.  
+
+Scaffold N50: Describes completeness of assembly. Contigs are lined from longest to shortest, value is contig length on which the point that marks 50% of total assembly length lies.
+
+NG50 may be better than using N50. This takes into account the size or estimated size of the genome, rather than the assembly size.  NG50 allows for meaningful comparisons between different assemblies.
+
+BUSCO will provide a quantitative assessment of genome assembly and annotation completeness based on evolutionarily informed expectations.  
+
+If possible, pull together gene models and calculate AED with MAKER.  Low AED would indicate conservation in gene structure and gene structure was well inferred,  High AED could mean divergence or technical issues in modeling the genes.
+
 Analyze and compare data.
+
+Potentially - start with comparing models of the two highest quality, most closely related species.
+
 
 
 ## Results
