@@ -23,6 +23,22 @@ The goal of this project is to survey the quality of Cnidarian genomes and then 
 
 Data used in the project will be from published genomes available online. If required, any extra data will be requested from the original authors.
 
+Cnidarian Genome Papers
+http://sites.bu.edu/davieslab/data-code/
+Gold et al. 2018 The genome of the jellyfish Aurelia and the evolution of animal complexity
+Wang et al. 2017; doi:10.1111/1755-0998.12680
+Matz lab - https://matzlab.weebly.com/data--code.html
+Lucas Leclere et al. 2018 The genome of the jellyfish Clytia hemisphaerica and the evolution of the cnidarian life-cycle. Preprint https://www.biorxiv.org/lookup/doi/10.1101/369959
+Hydra_2.0, I assume, cited in Leclere et al. 2018
+Hak-Min Kim et al. 2018 The jellyfish genome sheds light on the early evolution of active predation. BioRxiv http://dx.doi.org/10.1101/449082.
+https://bica.nhgri.nih.gov/hydractinia/miscellaneous/about.shtml
+Baumgarten, S., O. Simakov, L.Y. Esherick, Y.J. Liew, E.M. Lehnert, C.T. Michell, Y. Li, E.A. Hambleton, A. Guse, M.E. Oates, J. Gough, V.M. Weis, M. Aranda, J.R. Pringle, and C.R. Voostra (2015). The genome of Aiptasia, a sea anemone model for coral symb
+Shinzato, C., E. Shoguchi, T. Kawashima, M. Hamada, K. Hisata, M. Tanaka, M. Fujie, M. Fujiwara, R. Koyanagi, T. Ikuta, A. Fujiyama, D.J. Miller, and N. Satoh (2011). Using the Acropora digitifera genome to understand coral responses to environmental chan
+https://doi.org/10.1038/nature08830
+Justin Jiang et al. 2018 A Hybrid de novo Assembly of the Sea Pansy (Renilla muelleri) Genome. BioRxiv http://dx.doi.org/10.1101/424614
+Putnam et al. 2008 https://doi.org/10.1126/science.1139158
+
+
 ## Background
 
 Motivation for the project...
@@ -51,6 +67,8 @@ Analyze and compare data.
 
 Potentially - start with comparing models of the two highest quality, most closely related species.
 
+This Domestic animal genome quality analysis paper provides an example of what a comparative genome quality project could look like.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898645/pdf/bbi-suppl.4-2015-049.pdf
 
 
 ## Results
