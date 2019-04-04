@@ -32,6 +32,16 @@ Gold et al. 2018 The genome of the jellyfish Aurelia and the evolution of animal
 Wang et al. 2017; doi:10.1111/1755-0998.12680
 
 Matz lab - https://matzlab.weebly.com/data--code.html
+ACROPORA MILLEPORA
+ACROPORA HYACINTHUS
+PORITES ASTREOIDES
+ACROPORA TENUIS
+ACROPORA CERVICORNIS
+MONTIPORA AEQUITUBERCULATA
+MONTASTREA CAVERNOSA
+
+Siderastrea siderea Transcriptome
+http://sites.bu.edu/davieslab/data-code/
 
 Lucas Leclere et al. 2018 The genome of the jellyfish Clytia hemisphaerica and the evolution of the cnidarian life-cycle. Preprint https://www.biorxiv.org/lookup/doi/10.1101/369959
 
@@ -79,6 +89,11 @@ If possible, pull together gene models and calculate AED with MAKER.  Low AED wo
 Analyze and compare data.
 
 Potentially - start with comparing models of the two highest quality, most closely related species.
+
+Data is being gathered and analyzed but I couldn't figure out how to include my xcel tables in upload.  I will write up what I have done over the weekend.  
+
+
+I am meeting with Zach on Tuesday to go over what I have done so far.
 
 This Domestic animal genome quality analysis paper provides an example of what a comparative genome quality project could look like.
 https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898645/pdf/bbi-suppl.4-2015-049.pdf
