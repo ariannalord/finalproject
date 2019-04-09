@@ -66,7 +66,7 @@ http://reefgenomics.org/
 
 ## Background
 
-Motivation for the project...
+Cnidarians are cool, but also coral and climate change etc, genomics as a tool, important to have good quality genomes!!
 
 How it fits in with other work.......
 
