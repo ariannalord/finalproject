@@ -61,6 +61,8 @@ Justin Jiang et al. 2018 A Hybrid de novo Assembly of the Sea Pansy (Renilla mue
 
 Putnam et al. 2008 https://doi.org/10.1126/science.1139158
 
+http://reefgenomics.org/
+
 
 ## Background
 
@@ -100,6 +102,9 @@ https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898645/pdf/bbi-suppl.4-2015-049.pd
 
 
 ## Results
+BUSCO run on ACROPORA CERVICORNIS genome assembly from https://matzlab.weebly.com/data--code.html and metazoan lineage, results: C:83.8%[S:81.2%, D:2.6%], F:7.2%,M:9.0%,n:978
+
+BUSCO run on Siderastrea siderea Transcriptome from http://sites.bu.edu/davieslab/data-code/ and metazoan lineage, results:C:88.5%[S:49.7%, D:38.8%], F:3.5%,M:8.8%,n:978
 
 
 ## Assessment
