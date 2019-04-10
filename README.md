@@ -95,10 +95,20 @@ Potentially - start with comparing models of the two highest quality, most close
 Data is being gathered and analyzed but I couldn't figure out how to include my xcel tables in upload.  I will write up what I have done over the weekend.  
 
 
-I am meeting with Zach on Tuesday to go over what I have done so far.
+Notes from meeting with Zach:
 
-This Domestic animal genome quality analysis paper provides an example of what a comparative genome quality project could look like.
-https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898645/pdf/bbi-suppl.4-2015-049.pdf
+For heterozygosity: http://qb.cshl.edu/genomescope/
+
+dead simple queue: http://docs.ycrc.yale.edu/clusters-at-yale/job-scheduling/dsq/
+
+Zhao and Schranz paper which gathered a bunch of data on angiosperm genomes
+
+https://github.com/nextgenusfs/redmask
+
+git clone https://github.com/nextgenusfs/redmask
+
+
+
 
 
 ## Results
@@ -118,3 +128,6 @@ What would you have done differently???
 What are future directions this could go in?
 
 ## References
+
+This Domestic animal genome quality analysis paper provides an example of what a comparative genome quality project could look like.
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4898645/pdf/bbi-suppl.4-2015-049.pdf
