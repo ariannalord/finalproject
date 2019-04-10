@@ -1,0 +1,9 @@
+To send files from my computer to farnham
+
+In terminal on my computer:
+
+Ariannas-MacBook-Pro:~ ariannalord$ scp /Users/ariannalord/Desktop/adig.fasta adl48@farnam.hpc.yale.edu:/home/adl48/busco/digitifera
+Enter passphrase for key '/Users/ariannalord/.ssh/id_rsa':
+Enter passphrase for key '/Users/ariannalord/.ssh/id_rsa':
+adig.fasta                                    100% 2526KB  15.0MB/s   00:00
+Ariannas-MacBook-Pro:~ ariannalord$

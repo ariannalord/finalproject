@@ -1,0 +1,31 @@
+#!/bin/bash
+#SBATCH --job-name=busco1
+#SBATCH -p general
+#SBATCH -N 1
+#SBATCH -c 16
+#SBATCH --ntasks=1
+#SBATCH --mem-per-cpu=4G
+#SBATCH -t 1-00:00:00
+#SBATCH -o busco.%j.out
+#SBATCH -e busco.%j.err
+#SBATCH --mail-user=zachary.lewis@yale.edu
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+
+module load Augustus/3.2.3-foss-2016b Python/2.7.13-foss-2016b
+
+export BUSCO_CONFIG_FILE="/ysm-gpfs/home/zrl3/busco/config/config.ini"
+export PATH="/ysm-gpfs/apps/software/Augustus/3.2.3-foss-2016b/bin:$PATH"
+export PATH="/ysm-gpfs/apps/software/Augustus/3.2.3-foss-2016b/scripts:$PATH"
+export AUGUSTUS_CONFIG_PATH="/ysm-gpfs/home/zrl3/project/augustus/config"
+
+# --long will use initial models to train the HMM
+# --progress=true shows progress bar
+# -z for compressed output
+
+python /ysm-gpfs/home/zrl3/busco/scripts/run_BUSCO.py \
+     --cpu 16 \
+     -i xenoturbella.nonRedundant.scaffolds/contigs.reduced.fa \
+     -o reduced_BUSCO_out_long \
+     -l /ysm-gpfs/home/zrl3/busco/profile_library/metazoa_odb9 -m geno --long \
+     --augustus_parameters='--progress=true' -z
