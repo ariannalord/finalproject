@@ -1,0 +1,31 @@
+
+#moving files
+scp /Users/ariannalord/repo/finalproject/....... adl48@farnam.hpc.yale.edu:/home/adl48/.....
+
+#submissions
+ sbatch -A eeb723 binbash4busco.sh
+ sbatch -A eeb723 Redmaskscript.sh
+ sbatch -A eeb723 dsqbash.sh
+ sbatch -A eeb723 rms2.sh
+
+#file path acesses
+/home/adl48/redmask
+/ysm-gpfs/apps/software/Jellyfish/2.2.10-foss-2016b
+
+
+#Running genome assembly on BUSCO
+
+/home/adl48/project/busco-master
+
+python scripts/run_BUSCO.py -i /home/adl48/scratch60/genomes/Adigitifera.fasta -o digi -l /ysm-gpfs/home/adl48/project/busco/lineages/metazoa_odb9 -m geno
+
+Copying august us to home location
+
+cp -r /ysm-gpfs/apps/software/Augustus/3.2.3-foss-2016b/config /home/adl48/scratch60/Augustus
+export AUGUSTUS_CONFIG_PATH="/home/adl48/scratch60/Augustus"
+
+Environmental stuff
+
+export PATH="/ysm-gpfs/apps/software/Augustus/3.2.3-foss-2016b/bin:$PATH"
+export PATH="/ysm-gpfs/apps/software/Augustus/3.2.3-foss-2016b/scripts:$PATH"
+export AUGUSTUS_CONFIG_PATH="/home/adl48/scratch60/Augustus/config/"
